@@ -80,12 +80,13 @@ footer {
   background-color: #aaa;
 }
 
-/* Media queries for responsive layout */
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 768px) {
   main {
-    margin: 30px auto; /* Adjust margin on small screens */
+    justify-content: center;
   }
   .step-box {
     margin-right: 0;
+    width: 100%;
   }
 }
