@@ -20,7 +20,7 @@ main {
   max-width: 960px;
   margin: 50px auto;
   display: flex;
-  flex-wrap: wrap; /* Allow flex items to wrap to new line on small screens */
+  flex-wrap: wrap;
 }
 
 .step-box {
@@ -45,30 +45,23 @@ main {
 }
 
 .step-img1 {
-  background-image: url(img/flow01.png);
+  background-image: url(assignment_1img/flow01.png);
 }
 
 .step-img2 {
-  background-image: url(img/flow02.png);
+  background-image: url(assignment_1img/flow02.png);
 }
 
 .step-img3 {
-  background-image: url(img/flow03.png);
+  background-image: url(assignment_1img/flow03.png);
 }
 
 .step-num {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: #ff9a4b;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
+ position: absolute;
+ top: 0;
+ left: 0;
+ background-color: #ff9a4b;
+ color: #fff;
 }
 
 .title {
